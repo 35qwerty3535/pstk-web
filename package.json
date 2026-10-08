@@ -1,0 +1,25 @@
+{
+  "name": "pasa-teknik-web",
+  "version": "1.0.0",
+  "description": "Paşa Teknik Balçova Klima ve Beyaz Eşya Teknik Servisi Web Sitesi",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx serve . -l 3000",
+    "start": "npx serve . -l 3000",
+    "live": "npx live-server --port=3000",
+    "build": "echo Static site is ready for GitHub Pages!"
+  },
+  "keywords": [
+    "klima",
+    "kombi",
+    "beyaz-esya",
+    "teknik-servis",
+    "balcova",
+    "izmir"
+  ],
+  "author": "Paşa Teknik",
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "^14.2.4"
+  }
+}
